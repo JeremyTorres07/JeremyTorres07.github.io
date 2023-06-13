@@ -1,0 +1,349 @@
+*{margin: 0px; padding:0px;}
+
+
+/**********FUENTES************/
+.menu{
+    font-family: 'Inter', 'Regular';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.romanesco p{
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+}
+h1{
+    font-family: 'Inter', 'Bold';
+    font-size: 48px;
+}
+h2{
+    font-family: 'Inter'; 'SemiBold'
+    font-size: 32px;
+}
+
+
+/*****************HEADER****************/
+
+/*header{margin: 0px; padding:0px;}*/
+header{margin: 0px; padding:0px;}
+header{ height: 70px; width: 100%;clear: both; background-color: #A3A656;}
+
+header div ul {list-style-type: none;}
+header div ul li {display: inline-block; margin: 27px 30px 27px 70px;position: relative;}
+header div ul li:hover{color: #FFFF00}
+header div img {display: inline-block; margin: 7px 0px;position: relative;}
+header div span {display: inline-block; margin: 25px 0px;position: relative;}
+.header{
+    height: 70px;
+    width: 100%;
+    clear: both;
+}
+
+.headerList{
+    width: 70%;
+    height: 70px;
+}
+.headerList:nth-child(1){float: left}
+
+/********ACCOUNT AND FLAG*********/
+
+#accountFlag{
+    height: 70px;
+    width: 20%;
+    float: right
+}
+.account{
+    height: 70px;
+    float: left;
+}
+.account2{
+    padding: 0px 0px 0px 10px;
+    height: 70px;
+    float: left;
+}
+.flag1{
+    margin:  0px 0px 0px 65px;
+    height: 70px;
+    float: left;
+}
+.flag2{
+    margin:  8px 3px 0px 0px;
+    padding: 0px 0px 0px 5px;
+    height: 40px;
+    float: left;
+}
+.flag3{width: 5%;
+    margin:  20px 3px 0px 10px;
+    height: 40px;
+    float: left;
+}
+
+
+
+/***********************************************************************/
+
+
+
+
+/*********************SECTIONS******************/
+
+/******SECTION1************/
+section {margin: 0px; padding:0px;}
+#section1{margin: 0px; padding:1px;}
+#section1{width: 100%; height: 600px;
+    background-image: url("/imagenes/main.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.section1Content{
+    margin: 120px 100px;
+}
+.parrafoSection1{
+    width: 600px;
+    height: 50px;
+}
+
+
+/*********FORM SECTION*************/
+
+#formSection{margin: 0px; padding:0px;}
+#formSection{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #F2F6F6;
+
+
+}
+
+.inputs input {display: inline-block; clear: both;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #9E9A9A;
+    margin: 35px 0px 0px 0px;
+    border: 2px solid white;
+}
+.input1{ display: inline-block; clear: both;
+    padding: 0px 50px 0px 0px;
+}
+.input2{ display: inline-block; clear: both;
+    padding: 0px 0px 0px 50px;
+}
+/****************************************************************************************/
+
+/**********CARDS SECTION******************/
+#CARDS{
+}
+
+.cardsSection{
+
+    margin: 100px;
+    box-sizing: border-box;
+    border: 1px solid yellow;
+}
+.price-reserve{
+    padding: 20px 0px 0px 0px ;
+}
+.price-reserve p {float: left}
+.price-reserve button{float: right; border: 2px solid #A3A656}
+
+
+/******CARD1******/
+.card1{display: inline-block;margin: 0px; padding:0px;}
+.card1 div:nth-child(1){background-color: #A3A656;border-radius: 15px 15px 0px 0px;text-align: center;
+    height: 60px; color: white}
+.card1 h2{padding: 15px 0px 0px 0px}
+.card1 img{width: auto; height: 100%}
+.card1 button{border-radius: 35px; width: 180px; height: 45px; background-color: #A3A656; color: white}
+.card1 button:hover{background-color: #384001}
+
+.card1 div p:nth-child(1) {
+    font-family: 'Inter', 'Regular';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/******CARD2******/
+.card2{display: inline-block; margin: 0px 134px 0px 134px; }
+.card2 div:nth-child(1){background-color: #A3A656;border-radius: 15px 15px 0px 0px;text-align: center;
+    height: 60px; color: white}
+.card2 h2{padding: 15px 0px 0px 0px}
+.card2 img{width: auto; height: 100%}
+.card2 button{border-radius: 35px; width: 180px; height: 45px; background-color: #A3A656; color: white}
+.card2 button:hover{background-color: #384001; }
+
+.card2 div p:nth-child(1) {
+    font-family: 'Inter', 'Regular';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/******CARD3******/
+.card3{display: inline-block; margin: 0px; padding:0px; }
+.card3 div:nth-child(1){
+    background-color: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    height: 60px; color: white}
+.card3 h2{padding: 15px 0px 0px 0px}
+.card3 img{width: auto; height: 100%}
+.card3 button{border-radius: 35px; width: 180px; height: 45px; background-color: #A3A656;  color: white}
+.card3 button:hover{background-color: #384001}
+
+.card3 div p:nth-child(1) {
+    font-family: 'Inter', 'Regular';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/***************************************************************************************************/
+
+/*****************PLANS SECTION******************/
+#planSection{
+    width: 100%;
+    height: 770px;
+    background-color: #F2F6F6;
+    text-align: center;
+    margin: 0px; padding:0px;
+}
+#planContent{width: 100%;
+    height: 700px;
+    background-color: #F2F6F6;
+    text-align: center;
+    padding: 50px 0px 0px 0px
+}
+.socio{
+    padding: 40px 0px 0px 0px
+}
+/*************GOLD PLAN*************/
+.goldPlan{ width: 33%;
+    height: 500px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+.goldImg{width: 255px;
+    height: 255px ;
+    border:15px solid #384001;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: white;
+}
+.goldImg img{align-items: center;
+    padding: 50px;
+}
+
+/*************PREMIUM PLAN*************/
+.premiumPlan{width: 33%;
+    height: 500px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    position: relative ; top: -19px
+}
+.premiumImg{width: 255px;
+    height: 255px ;
+    border:15px solid #384001;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: white;
+}
+.premiumImg img{
+    align-items: center;
+    padding: 50px
+}
+
+/*************PLATE PLAN*************/
+.platePlan{width: 33%;
+    height: 500px;
+    display: inline-block;
+    margin: 40px 0px;
+    text-align: center;
+    position: relative; top: -38px
+}
+.plateImg{
+    width: 255px;
+    height: 255px;
+    border:15px solid #384001;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: white;
+}
+.plateImg img{
+    align-items: center;
+    padding: 50px}
+
+/*************PLAN CONFIGURATION*************/
+.conditions{
+    padding: 20px 0px 0px 0px;
+}
+.conditions button{
+    width: 270px; height: 55px;
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: white;
+    border:3px solid #A3A656;
+}
+.conditions button:hover{background-color:#384001; }
+
+#planContent ul li{text-align: justify;
+    list-style-position: inside;
+    padding-left: 150px;
+}
+.planList{
+    padding: 30px 0px 0px 0px;
+}
+
+
+/*************************************************************************/
+footer {margin: 0px; padding:0px;}
+footer div ul {list-style-type: none; }
+footer div ul li {display: inline-block; margin: 40px 35px 0px 70px; position: relative}
+footer div ul li:hover{color: #FFFF00}
+
+
+
+.footer{display: inline-block;
+    width: 100%;
+    height: 97px;
+    clear: both;
+    background-color: #384001;
+    color: #A3A656;
+}
+.footerList{
+    height: 97px;
+    width: 78%;
+    float: left;
+}
+.socialMedia{display: inline-block;
+    width: 22%;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia1{display: inline-block;
+    float: left;
+    height: 45px;
+    width: 120px;
+    margin: 40px 0px 0px 0px;
+}
+
+.socialMedia2{display: inline-block;
+    float: right;
+    height: 45px;
+    width: 45px;
+    margin: 25px 10px 0px 5px;
+}
+.socialMedia3{display: inline-block;
+    float: right;
+    height: 45px;
+    width: 45px;
+    margin: 33px 25px 5px 35px;
+}
+.socialMedia4{display: inline-block;
+    float: right;
+    height: 45px;
+    width: 45px;
+    margin: 33px 0px 0px 0px;
+}
